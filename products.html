@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+
+<body>
+
+    <nav class="bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10">
+        <h1 class="text-2xl">Greenden</h1>
+
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="w-6 h-6 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+
+        <!-- Hiding the UL first for mobile page , then making Home product Contacts to be visible in the medium window -->
+        <!-- Implementing Media Queries in CSS, For Eg: md:flex means medium screen should be flex -->
+        <ul class="flex gap-5 text-gray-600 hidden md:flex">
+            <li>
+                <a class="hover:underline hover:text-red-500" href="#">Home</a>
+            </li>
+
+            <li>
+                <a class="hover:underline hover:text-red-500" href="#">Products</a>
+            </li>
+
+            <li>
+                <a class="hover:underline hover:text-red-500" href="#">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Our Products Section -->
+    <section class="text-center">
+        <h1 class="text-3xl font-bold mt-5 text-center">Our Products</h1>
+
+        <input type="text" placeholder="Search for a Product" class=" border border-black p-2 m-3" style="width: 80%;">
+    </section>
+
+
+
+
+    <!-- Product Images Section -->
+    <section class="p-4 text-center">
+        <h1 class="font-bold mt-5 text-3xl">Best Seller</h1>
+
+        <!-- Creating div container -->
+        <!-- Creating Grid for mobile view, creating 2 columns-->
+        <!-- Setting up gap between the plants image -->
+        <div class="grid grid-cols-2 md:grid-cols-4 mt-5 gap-5">
+            <div>
+                <!-- images is not center so making it as inline -->
+                <!-- adding animation effect, transform hover:translate-y-2 -->
+                <img src="./images/bestseller_1.jpg" class="inline hover:shadow-2xl transform hover:-translate-y-2"
+                    alt="">
+                <h1>Rose Plant</h1>
+                <p>£20</p>
+            </div>
+
+            <div>
+                <img src="./images/bestseller_2.jpg" class="inline hover:shadow-2xl transform hover:-translate-y-2"
+                    alt="">
+                <h1>Yellow Plant</h1>
+                <p>£25</p>
+            </div>
+
+            <div>
+                <img src="./images/bestseller_3.jpg" class="inline hover:shadow-2xl transform hover:-translate-y-2"
+                    alt="">
+                <h1>Violet Plant</h1>
+                <p>£30</p>
+            </div>
+
+            <div>
+                <img src="./images/bestseller_4.jpg" class="inline hover:shadow-2xl transform hover:-translate-y-2"
+                    alt="">
+                <h1>Jasmine Plant</h1>
+                <p>£35</p>
+            </div>
+
+            
+            <div>
+                <img src="./images/bestseller_3.jpg" class="inline hover:shadow-2xl transform hover:-translate-y-2"
+                    alt="">
+                <h1>Yellow Plant</h1>
+                <p>£25</p>
+            </div>
+
+            <div>
+                <img src="./images/bestseller_4.jpg" class="inline hover:shadow-2xl transform hover:-translate-y-2"
+                    alt="">
+                <h1>Violet Plant</h1>
+                <p>£30</p>
+            </div>
+
+            <div>
+                <img src="./images/bestseller_2.jpg" class="inline hover:shadow-2xl transform hover:-translate-y-2"
+                    alt="">
+                <h1>Jasmine Plant</h1>
+                <p>£35</p>
+            </div>
+
+            <div>
+                <img src="./images/bestseller_1.jpg" class="inline hover:shadow-2xl transform hover:-translate-y-2"
+                    alt="">
+                <h1>Jasmine Plant</h1>
+                <p>£35</p>
+            </div>
+
+
+            <div>
+                <img src="./images/bestseller_3.jpg" class="inline hover:shadow-2xl transform hover:-translate-y-2"
+                    alt="">
+                <h1>Yellow Plant</h1>
+                <p>£25</p>
+            </div>
+
+            <div>
+                <img src="./images/bestseller_4.jpg" class="inline hover:shadow-2xl transform hover:-translate-y-2"
+                    alt="">
+                <h1>Violet Plant</h1>
+                <p>£30</p>
+            </div>
+
+            <div>
+                <img src="./images/bestseller_2.jpg" class="inline hover:shadow-2xl transform hover:-translate-y-2"
+                    alt="">
+                <h1>Jasmine Plant</h1>
+                <p>£35</p>
+            </div>
+
+            <div>
+                <img src="./images/bestseller_1.jpg" class="inline hover:shadow-2xl transform hover:-translate-y-2"
+                    alt="">
+                <h1>Jasmine Plant</h1>
+                <p>£35</p>
+            </div>
+
+            <div>
+                <img src="./images/bestseller_3.jpg" class="inline hover:shadow-2xl transform hover:-translate-y-2"
+                    alt="">
+                <h1>Yellow Plant</h1>
+                <p>£25</p>
+            </div>
+
+            <div>
+                <img src="./images/bestseller_4.jpg" class="inline hover:shadow-2xl transform hover:-translate-y-2"
+                    alt="">
+                <h1>Violet Plant</h1>
+                <p>£30</p>
+            </div>
+
+            <div>
+                <img src="./images/bestseller_2.jpg" class="inline hover:shadow-2xl transform hover:-translate-y-2"
+                    alt="">
+                <h1>Jasmine Plant</h1>
+                <p>£35</p>
+            </div>
+
+            <div>
+                <img src="./images/bestseller_1.jpg" class="inline hover:shadow-2xl transform hover:-translate-y-2"
+                    alt="">
+                <h1>Jasmine Plant</h1>
+                <p>£35</p>
+            </div>
+
+            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi maiores eaque labore quod doloremque quia consequuntur deserunt adipisci tempora quam? Nobis dolorem cum commodi. Fugit in sit debitis, et voluptatem quibusdam omnis tenetur illo hic doloremque, dolore natus veniam molestiae fugiat praesentium, perspiciatis culpa dignissimos. Expedita temporibus quam ullam sapiente tempora veritatis voluptatum alias neque recusandae ex ut, rem dolorum unde nam explicabo totam autem illum saepe! Blanditiis nam magni, et rem odit tempora est similique odio dolorum velit explicabo doloribus natus nesciunt beatae tenetur reprehenderit perspiciatis quam ex obcaecati a! Facilis officia, ratione aut accusantium placeat adipisci quisquam, minus cum recusandae ducimus sint fugiat odio perferendis cumque magni amet quo rem. Eos dignissimos ab aliquam a? Impedit officia reprehenderit possimus tempora ab eveniet temporibus quasi aut, quos, consequuntur eum asperiores itaque quas atque. Laborum, accusantium temporibus dignissimos, consequuntur magni reprehenderit sit quis illo recusandae odit, soluta aliquid nihil! Nam harum sunt placeat, adipisci molestias vel assumenda corrupti. Nisi temporibus nihil quia optio eos ut voluptate, veritatis, a delectus, sint id ab. Labore voluptatibus quisquam rem saepe quo voluptate laudantium asperiores molestias. Nobis qui quaerat quisquam molestias suscipit repellat placeat deleniti dignissimos in ad blanditiis eius laborum alias dicta explicabo voluptate, pariatur nulla magni aliquid corporis rem esse repudiandae! Vel ullam facere, atque itaque voluptates facilis. Minus, obcaecati necessitatibus! Fugit aspernatur provident sed eaque error sequi mollitia quae, earum, explicabo cumque esse cupiditate fugiat ab tempore recusandae omnis harum voluptas numquam itaque. Facere quia accusamus exercitationem tempora quidem quos voluptate fuga, reprehenderit velit quo provident sed maxime perspiciatis rerum fugiat. Similique tenetur molestiae assumenda vel, nesciunt illo sequi. Maxime quidem, suscipit iusto reprehenderit vero rem reiciendis. Mollitia, vel cupiditate sequi architecto labore esse error animi nostrum dignissimos! Omnis nihil beatae cum voluptate, vero accusantium, modi quas iusto atque eveniet, soluta magni dolorum at! Totam ea et est doloremque consequuntur. Eveniet et asperiores veritatis, fugit vitae at hic expedita, doloribus vero eaque, repudiandae ea. Eligendi quae reprehenderit sequi dolores soluta! Laborum porro voluptatem fuga quisquam non unde nesciunt sint nam! Suscipit sunt, veritatis dolorum ducimus vero dolor tempora cum porro, consequuntur qui reprehenderit magni veniam laborum aperiam distinctio ipsa architecto ex neque, dolores blanditiis recusandae. Nesciunt reprehenderit optio, aliquam mollitia tempore corrupti ab! Accusantium dolore iure, eligendi alias, odit aut molestiae necessitatibus maxime incidunt nemo hic impedit in exercitationem corrupti dolor quas officiis delectus sunt nostrum! Praesentium exercitationem ex, enim sapiente blanditiis eos alias, aliquid similique voluptate nobis vel, magni commodi quos! Earum impedit dolores porro quaerat, aperiam commodi vitae quas cupiditate? Neque eos facere quia maiores earum eligendi! Maxime exercitationem, distinctio placeat nam voluptatem amet praesentium harum quidem? Quisquam et neque obcaecati adipisci quis iste provident eum dolorem iure non saepe, perspiciatis velit, repellat earum explicabo ullam minus sequi, similique harum enim dolor itaque. Nobis praesentium numquam earum nam debitis ex, possimus commodi at iste dicta quisquam fugit corrupti, odio sint quos ullam maiores aperiam reprehenderit assumenda expedita esse? Pariatur quia harum rem! Eaque ex aperiam tenetur eveniet explicabo ad, quidem repudiandae placeat quisquam sequi nulla expedita beatae architecto nihil, illum animi consequuntur quasi? Natus illo saepe rem accusamus voluptates accusantium corrupti ducimus placeat perferendis fuga dicta non minima incidunt impedit tempore sit, veniam vitae quos. Assumenda iure, itaque esse facere molestias earum, reprehenderit nisi quam incidunt culpa quia aspernatur at a unde, atque voluptas molestiae odio velit. Rem, totam ea alias nobis perferendis nisi doloremque iusto voluptatibus voluptatem eius, facilis iste temporibus natus doloribus accusantium, adipisci error ipsam autem voluptas id aperiam a vel nesciunt? Possimus quam unde doloremque nihil, impedit accusantium cumque nemo sequi minima fugiat asperiores aut temporibus harum officiis magni molestiae ea? Officia quia soluta, veniam, temporibus, reprehenderit omnis ullam repellendus ipsam repudiandae nobis modi molestiae similique repellat porro nostrum praesentium dolor. Quis id placeat aspernatur non, minima numquam quibusdam, exercitationem necessitatibus sequi odit, voluptate molestiae dignissimos. Perferendis voluptas recusandae ab, et necessitatibus incidunt, deserunt distinctio sint accusamus aliquam non officiis veritatis dolore temporibus autem repellendus sapiente ut ipsum dolorem qui nam facere repudiandae fugit. Sed placeat sit quia harum quisquam animi, cupiditate rem suscipit illo magni quod modi esse minus odio voluptatem maxime! In rem dolorum consequuntur iste fugiat iure, vel, recusandae aliquid totam, fuga mollitia eius sapiente atque asperiores eveniet nam officia repellat aut? Doloremque enim dolorum et vitae deserunt vel iste dolor recusandae blanditiis quis voluptatem deleniti non tempore expedita, dicta perspiciatis. Dolorum voluptate optio et modi praesentium amet accusantium dolore voluptatibus ducimus a ea unde minima recusandae commodi, consequatur in ad quos quis nesciunt earum! Aut autem, vitae similique possimus quibusdam natus accusamus illo dolorum odio architecto quos omnis suscipit nemo! Dicta maiores suscipit non et excepturi. Dolor eveniet aperiam libero sequi illo soluta saepe aliquid totam a dolorum, ducimus, maiores nemo repudiandae ex impedit perspiciatis numquam temporibus similique hic adipisci quo velit odit placeat? Optio vitae dolorum ratione doloribus facilis doloremque nobis earum! Harum commodi laudantium voluptate voluptatum repellendus magnam deleniti, adipisci dolorem ut iusto illo sunt perspiciatis quisquam a omnis accusamus velit aliquid praesentium veritatis sint voluptas. Soluta, minima totam. Facere, perferendis sint totam reprehenderit sed magni voluptates quidem illo quo, enim quia consequuntur fuga quibusdam in repellat iusto excepturi fugiat vitae, expedita incidunt ad? Consectetur dolor porro, magnam eligendi voluptates iusto esse. Rem vero quaerat iste autem non laudantium dolor voluptate quia optio sed odio libero officia odit impedit in voluptas dolore, ab porro error similique quo minima! Impedit cum neque veritatis dolores vero, cumque quibusdam odit reprehenderit sint nobis ullam voluptas sapiente totam culpa error obcaecati. Quibusdam temporibus ratione obcaecati fuga mollitia distinctio ullam omnis quia iure est consequuntur laboriosam neque in earum quos, doloribus, voluptas porro harum. Doloribus enim est quo, incidunt soluta tempore. Iusto temporibus qui fugiat culpa maxime deserunt nulla ipsa illum. Maxime quis et quas asperiores, quaerat suscipit a? Quasi maxime impedit fugit dicta earum laborum minima eum suscipit blanditiis? Consequatur sed distinctio veniam aspernatur. Nostrum fuga quas a ullam, iusto voluptates architecto quo facilis alias autem! Dicta aperiam eaque reprehenderit illum ut accusamus!</p> -->
+
+        </div>
+
+
+    </section>
+
+
+
+
+    <!-- Footer Section -->
+    <!-- Adding gap and making it as flex for neat presentation , we can also use flex justify center -->
+    <section class="bg-green-100 p-10 flex flex-col gap-2 mt-5">
+        <h1 class="text-4xl font-bold">Greenden</h1>
+        <p>The Standard chunk of Lorem used since the 1500 is reproduced below for those interest </p>
+        <p>@ 2021 Greenday.com</p>
+    </section>
+
+
+</body>
+
+</html>
